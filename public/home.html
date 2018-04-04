@@ -1,0 +1,32 @@
+<div style="background-color:blue;">
+    <h1>Working with Services in AngularJS</h1>
+</div>
+<hr> <br>
+
+<div>
+    <h2>{{title}}</h2>
+
+    <table class="table table-hover">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr ng-repeat="item in products">
+            <td>{{item.Id}}</td>
+            <td>{{item.Name}}</td>
+            <td>{{item.Price}}</td>
+            <td>{{item.Qty}}</td>
+        </tr>
+    </table>
+
+    <br/>
+    <div class="table table-info">
+        <h4>Summary</h4>
+        <p>Price Amount : {{PriceAmount | currency:'INR'}}</p>
+        <p>Total Amount of MiA1 :{{MiTotal | currency:'INR'}}</p>
+        <p>Total Amount of MacBook :{{MacTotal | currency:'INR'}}</p>
+        <p>Total Bill Amount of Both Products :{{TotalBillAmount | currency:'INR'}}</p>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{
+  "name": "service_app",
+  "version": "latest",
+  "dependencies": {
+    "angular": "latest",
+    "bootstrap": "latest"
+  },
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Red"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
